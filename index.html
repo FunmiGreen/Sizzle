@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+        <div class="top-container">
+            <div class="logo" id="logo">
+                <img src="./Images/logo.svg" alt="logo">
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search for a recipe...">
+                <button id="search-button"><img src="./Images/Search icon.svg" alt="icon"></button>
+            </div>
+        
+        </div>
+
+        <!-- Cards container -->
+        <div class="static-cards-container" id="static-cards-container">
+
+            <!-- First card container -->
+            <!-- <div class="first-card-container" id="first-card-container">
+                <div class="card-image" id="card-image">
+                    <img src="./Images/egg.svg" alt="meal">
+                </div>
+                <div class="card-text-button" id="card-text-button">
+                    <p class="card-text">Creamy Pasta</p>
+                    <div class="cooking-time">
+                        <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text">15mins</p>
+                    </div>
+                    <a id="view-recipe" href="#">View Recipe</a>
+                    <button class="card-button">View Recipe</button>
+                </div>
+            </div> -->
+        
+            <!-- Second card container -->
+            <!-- <div class="second-card-container" id="second-card-container">
+                <div class="card-image" id="card-image">
+                    <img src="./Images/pancakes.svg" alt="meal">
+                </div>
+                <div class="card-text-button">
+                    <p class="card-text">Shrimp Spaghetti</p>
+                    <div class="cooking-time">
+                        <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text">25mins</p>
+                    </div>
+                    <a id="view-recipe" href="#">View Recipe</a>
+                    <button class="card-button">View Recipe</button>
+                </div>
+            </div> -->
+
+            <!-- Third card container -->
+            <!-- <div class="third-card-container" id="third-card-container">
+                <div class="card-image" id="card-image">
+                    <img src="./Images/steak.svg" alt="meal">
+                </div>
+                <div class="card-text-button">
+                    <p class="card-text">Spaghetti in tomato sauce</p>
+                    <div class="cooking-time">
+                        <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text">10mins</p>
+                    </div>
+                    <a id="view-recipe" href="#">View Recipe</a>
+                    <button class="card-button">View Recipe</button>
+                </div>
+            </div> -->
+
+            <!-- Fourth card container -->
+            <!-- <div class="fourth-card-container" id="fourth-card-container">
+                <div class="card-image" id="card-image">
+                    <img src="./Images/steak.svg" alt="meal">
+                </div>
+                <div class="card-text-button">
+                    <p class="card-text">Spaghetti in tomato sauce</p>
+                    <div class="cooking-time">
+                        <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text">9mins</p>
+                    </div>
+                    <a id="view-recipe" href="#">View Recipe</a>
+                    <button class="card-button">View Recipe</button>
+                </div>
+            </div> -->
+
+            <!-- Fifth card container -->
+            <!-- <div class="fifth-card-container" id="fifth-card-container">
+                <div class="card-image" id="card-image">
+                    <img src="./Images/steak.svg" alt="meal">
+                </div>
+                <div class="card-text-button">
+                    <p class="card-text" id="card-text">Spaghetti in tomato sauce</p>
+                    <div class="cooking-time">
+                        <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text">30mins</p>
+                    </div>
+                    <a id="view-recipe" href="#">View Recipe</a>
+                    <button class="card-button">View Recipe</button>
+                </div>
+            </div> -->
+
+            <!-- Sixth card container -->
+            <!-- <div class="sixth-card-container" id="sixth-card-container">
+                <div class="card-image" id="card-image">
+                    <img src="./Images/steak.svg" alt="meal">
+                </div>
+                <div class="card-text-button">
+                    <p class="card-text">Spaghetti in tomato sauce</p>
+                    <div class="cooking-time">
+                        <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text">10mins</p>
+                    </div>
+                    <a id="view-recipe" href="#">View Recipe</a>
+                    <button class="card-button">View Recipe</button>
+                </div>
+            </div> -->
+        </div>
+
+
+
+        <!-- After a user searches for a recipe -->
+        <div class="search-results-container" id="search-results-container">
+            <!-- <p class="message">Results for Rice</p> -->
+            <!-- <div class="search-cards-container" id="search-cards-container"> -->
+                <!-- <div class="first-card-container" id="first-card-container"> -->
+                    <!-- <div class="card-image" id="card-image">
+                        <img src="./Images/egg.svg" alt="meal">
+                    </div> -->
+                    <!-- <div class="card-text-button">
+                        <p class="card-text">Creamy Pasta</p>
+                        <div class="cooking-time">
+                            <img src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                            <p class="cooking-time-text">15mins</p>
+                        </div>
+                        <a id="view-recipe" href="#">View Recipe</a>
+                        <!-- <button class="card-button">View Recipe</button> -->
+                    <!-- </div> --> 
+                <!-- </div> 
+            </div> -->
+        </div>
+    
+
+
+
+
+        <!-- Modal for recipe -->
+        <div class="modal-overlay" id="modal-overlay">
+            <!-- <div class="modal-container">
+                <div class="close-icon" id="close-icon">
+                        <img class= "the-close-icon" id="the-close-icon" src="./Images/proicons_cancel.svg" alt="icon">
+                </div>
+                <div class="modal-title" id="modal-title">
+                        <h2 class= "the-modal-title">Creamy Pasta</h2>
+                </div>
+                
+                <div class="modal-content">
+                    <div class="modal-image" id="modal-image">
+                        <img src="./Images/steak.svg" alt="meal">
+                    </div>
+                    <div class="cooking-time">
+                        <img class="cooking-time-icon" src="./Images/material-symbols_timer-outline-rounded.svg" alt="timer icon">
+                        <p class="cooking-time-text" id="cooking-time-text">30mins</p>
+                    </div>
+                    <div class="ingredients">
+                        <div class="ingredients-text">
+                            <h3>Ingredients:</h3>
+                        </div>
+                        <ul class="ingredient-list">
+                                <li> Penne rigate</li>
+                                <li>Olive oil</li>
+                                <li>Garlic</li>
+                                <li>Chopped tomatoes</li>
+                                <li>Red chilli flakes</li>
+                                <li>Italian seasoning</li>
+                                <li>Basil</li>
+                        </ul>   
+                    </div>
+                    <div class="instructions">
+                        <h3 class= "instructions-text">Instructions:</h3>
+                        <ol class="instructions-list">
+                            <li>Boil the pasta in a large pot of salted water until al dente </li>
+                            <li>Heat the olive oil in a large skillet over medium heat</li>
+                            <li> Add the garlic and cook for 1-2 minutes until fragrant</li>
+                        </ol>
+                    </div>
+                </div>
+                
+
+
+            </div> -->
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
