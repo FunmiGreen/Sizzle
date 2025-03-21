@@ -403,7 +403,16 @@ input{
     }
 }
 @media screen and (max-width:480px){
-    .top-container{
+    .mobile-top-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 1.5rem 2rem 2rem 2rem;
+    }
+    /* .top-container{
         width: 100%;
         height: auto;
         display: flex;
@@ -411,9 +420,9 @@ input{
         justify-content: space-between;
         align-items: center;
         padding: 1.5rem 2rem 2rem 2rem;
-    }
+    } */
     .search-container{
-        width: fit-content;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -460,7 +469,7 @@ input{
     border-radius: 0.5rem;
 }
 .modal-container{
-    width: 70%;
+    width: 80%;
     height: 90%;
     background-color: white;
     padding: 2rem;
